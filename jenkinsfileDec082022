@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building'
+            }
+        }
+		stage('Moses') {
+            steps {
+                echo 'Flowing'
+            }
+        }
+		stage('StSaratu') {
+            steps {
+                echo 'Stopping'
+            }
+        }
+		stage('Baba') {
+            steps {
+                echo 'Buying'
+            }
+        }
+		stage('Regards') {
+            steps {
+                echo 'Regarding'
+            }
+        }
+		
+		
+    }
+}
